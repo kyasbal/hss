@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var yargs = require("yargs");
+
+yargs.option("targetPort", {
+    alias: "t",
+    default: 8080
+}).option("port", {
+    alias: "p",
+    default: 8081
+});
+require("../lib/hss");
