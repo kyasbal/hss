@@ -13,7 +13,7 @@ You even don't need to generate your own certification. This package would gener
 
 ### install
 
-**Please make sure openssl is installed on your computer**
+**Please make sure openssl is installed on your computer before installing**
 
 ```
 npm install hss -g
